@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
 
-  div:first-child {
+  .addCityBlock {
     margin-right: 70px;
     input {
       border: $border;

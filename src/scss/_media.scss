@@ -1,0 +1,73 @@
+@media screen and (max-width: 937px) {
+  .city {
+    width: 16vw;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .optionsBlock {
+    div:last-child {
+      width: 33vw;
+    }
+  }
+
+  .city {
+    width: 19vw;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .city {
+    width: 23vw;
+  }
+}
+
+@media screen and (min-width: 525px) and (max-width: 637px){
+  .city {
+    width: 28vw;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .optionsBlock {
+    .addCityBlock {
+      margin-right: 55px;
+
+      input {
+        width: 20vw;
+      }
+    }
+
+    div:last-child {
+      width: 35vw;
+    }
+  }
+
+  .city {
+    width: 33vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .optionsBlock {
+    display: inline-flex;
+    flex-direction: column;
+
+    .addCityBlock {
+      margin-right: 0;
+
+      input {
+        width: 45vw;
+      }
+    }
+
+    div:last-child {
+      margin-top: 20px;
+      width: 59vw;
+    }
+  }
+
+  .city {
+    width: 50vw;
+  }
+}
