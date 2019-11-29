@@ -1,8 +1,5 @@
 import {ADD_CITY, ADD_WEATHER, SET_FILTER, DELETE_TRACKED_CITY, DELETE_TRACKED_WEATHER} from './types';
 
-// ID городов
-let cityID = 0;
-
 // Добавление города к просматриваемым
 export const addCity = content => ({
     type: ADD_CITY,
