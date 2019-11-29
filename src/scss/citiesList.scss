@@ -1,0 +1,54 @@
+@import "vars";
+
+.citiesList {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.city {
+  width: 13vw;
+  position: relative;
+  text-align: left;
+  padding: 7px 15px;
+  border: $border;
+  margin-bottom: 10px;
+
+  p {
+    margin: 3px 0;
+    font-size: 0.8em;
+  }
+
+  p:first-child {
+    font-size: 1em;
+    font-weight: bold;
+  }
+
+  >div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+    p {
+      font-size: 1.6em;
+    }
+
+    img {
+      width: 30%;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .plus:before {
+      content: '+';
+    }
+  }
+
+  span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+  }
+}

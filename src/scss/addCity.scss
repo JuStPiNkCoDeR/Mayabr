@@ -1,0 +1,32 @@
+@import "mixins";
+@import "vars";
+
+form {
+  display: flex;
+  align-content: flex-start;
+}
+
+.addCityBlock {
+  input {
+    width: 15vw;
+    padding: 10px;
+    margin-right: 3px;
+  }
+
+  button {
+    padding: 8.5px;
+    background: #fff;
+    border: $border;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background: #aaa;
+  }
+
+  button:before {
+    width: 15px;
+    height: 15px;
+  };
+}

@@ -1,0 +1,54 @@
+@import "mixins";
+@import "vars";
+
+.optionsBlock {
+  display: flex;
+  justify-content: center;
+
+  div:first-child {
+    margin-right: 70px;
+    input {
+      border: $border;
+    }
+  }
+
+  div:last-child {
+    width: 20vw;
+    label {
+      display: block;
+      text-align: left;
+      position: relative;
+      span {
+        align-self: end;
+        position: absolute;
+        bottom: -25px;
+        left: 17.9713px;
+      }
+    }
+  }
+  input[type=range] {
+    margin-top: 10px;
+    width: 80%;
+    background: linear-gradient(to right, #aaa 20%, #555 20%);
+    border-radius: 8px;
+    height: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  input[type=range]:focus {
+    outline: none;
+  }
+
+  input[type=range]::-webkit-slider-thumb {
+    @include thumb();
+  }
+
+  input[type=range]::-moz-range-thumb {
+    @include thumb();
+  }
+
+  input[type=range]::-ms-thumb {
+    @include thumb();
+  }
+}
