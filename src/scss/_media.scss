@@ -22,9 +22,21 @@
   }
 }
 
-@media screen and (min-width: 525px) and (max-width: 637px){
+@media (min-width: 590px) and (max-width: 768px) {
+  .city {
+    width: 23vw;
+  }
+}
+
+@media screen and (min-width: 525px) and (max-width: 589px){
   .city {
     width: 28vw;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 524px) {
+  .city {
+    width: 33vw;
   }
 }
 
@@ -41,10 +53,6 @@
     div:last-child {
       width: 35vw;
     }
-  }
-
-  .city {
-    width: 33vw;
   }
 }
 
